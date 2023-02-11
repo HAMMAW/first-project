@@ -128,3 +128,20 @@ main {
 .main-paragraph {
     word-wrap: break-word;
 }
+
+.quote {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 170px 60px 170px;
+}
+
+.quote-paragraph {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.author {
+    align-self:flex-end;
+}
